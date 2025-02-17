@@ -220,12 +220,12 @@
           },
           "dependencies": [
             {
-              "name": "testing-customer-care-gen-ai-app-config-da",
-              "catalog_id": "f64499c8-eb50-4985-bf91-29f9e605a433",
+              "name": "deploy-arch-ibm-slz-vpc",
+              "catalog_id": "1082e7d2-5e2f-0a11-a3bc-f88a8e1931fc",
               "flavors": [
                 "banking-ce"
               ],
-              "id": "bdb533aa-fe34-4f3b-bf35-0007fee74221",
+              "id": "9fc0fa64-27af-4fed-9dce-47b3640ba739-global",
               "input_mapping": [],
               "optional": true,
               "on_by_default": true,
@@ -288,6 +288,18 @@
                 "standard"
               ],
               "catalog_id": "7df1e4ca-d54c-4fd0-82ce-3d13247308cd",
+              "optional": true,
+              "on_by_default": true,
+              "input_mapping": []
+            },
+            {
+              "name": "testing-deploy-arch-ibm-kms",
+              "id": "85fdbd7a-8c77-4abd-b716-653a31f3aba9-global",
+              "version": "^1.1.0",
+              "flavors": [
+                "standard"
+              ],
+              "catalog_id": "7a4d68b4-cf8b-40cd-a3d1-f49aff526eb3",
               "optional": true,
               "on_by_default": true,
               "input_mapping": []
@@ -403,7 +415,7 @@
         {
           "label": "Standard (Deploy on Red Hat OpenShift)",
           "name": "standard",
-          "working_directory": "solutions/basic",
+          "working_directory": "solutions/other",
           "compliance": {
             "authority": "scc-v3",
             "profiles": [
